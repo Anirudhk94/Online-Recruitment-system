@@ -18,6 +18,7 @@ class Interview_q extends CI_Controller {
 		redirect('/dashboard');	
 	}
 
+
 	public function get_qa($id) {
 		$qans = $this->question_model->get_qans($id);	
 		//print_r($qans);
